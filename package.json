@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app",  
-    "dev": "nodemon app", 
+    "start": "node app.js",  
+    "dev": "nodemon app.js", 
     "test": "echo \"No test script available\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A backend service for [purpose of the application]",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
@@ -19,6 +19,9 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.11.3"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
